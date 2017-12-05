@@ -18,4 +18,5 @@ Make changes to your code to see a live preview.
 - Uses [Bootstrap v4.0.0-beta.2](https://getbootstrap.com/)
 - Uses [Bootstrap 4 Jumbotron Template](https://getbootstrap.com/docs/4.0/examples/jumbotron/)
 - Docker image based on the [official Jekyll image](https://hub.docker.com/r/jekyll/jekyll/)
+- Built using [Jekyll v3.6.2](https://jekyllrb.com/)
 - Site served on port 4000, customisable in the docker-compose file
