@@ -1,5 +1,7 @@
 ---
-layout: blog-home
+layout: blog
 title: Blog
-permalink: /blog/
+permalink: /blog
 ---
+
+This is the blog. All blog posts are listed here.

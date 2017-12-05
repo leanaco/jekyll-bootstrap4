@@ -1,15 +1,21 @@
 # Jekyll-bootstrap4
-Jekyll skeleton with Bootstrap4 templates to serve as a means to quickly generate new websites. 
-
-Comes with Dockerfile for a local development environment.
+Dockerized Jekyll skeleton with integrated Bootstrap v4.0 Jumbotron template to quickly generate new sites.
 
 ## Instructions
 Clone the repo and cd into it.
 
-Build the Docker image:
-<code>docker build -t jekyll-bootstrap4 .</code>
+Launch the container:
+<code>docker-compose up</code>
 
-Run the container:
-<code>docker run --rm -it -p 4000:4000 -v ${pwd}:/srv/jekyll test bundle exec jekyll serve --force_polling</code>
+Voila! View your site in a web browser:
+<code>localhost:4000</code>
 
-Now you can make any necessary changes to your code, and see a live preview at localhost:4000 in your browser.
+Make changes to your code to see a live preview.
+
+## Details
+
+- Includes [HTML5 Boilerplate v6.01](https://html5boilerplate.com/)
+- Uses [Bootstrap v4.0.0-beta.2](https://getbootstrap.com/)
+- Uses [Bootstrap 4 Jumbotron Template](https://getbootstrap.com/docs/4.0/examples/jumbotron/)
+- Docker image based on the [official Jekyll image](https://hub.docker.com/r/jekyll/jekyll/)
+- Site served on port 4000, customisable in the docker-compose file
