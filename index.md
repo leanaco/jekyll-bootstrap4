@@ -6,37 +6,40 @@ layout: default
 ---
 <main role="main">
     
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!-- Title -->
   <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    <div class="container">    
+      <div class="header-bar">
+        <h1>Leana Copeland</h1>
+        <h2>user experience researcher</h2>
+        <br/>
+        <hr>
+      </div>
     </div>
   </div>
 
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+<!-- Portfolio section -->
+<div class="container">
+  <h1 class="text-center">my portfolio</h1>
+  {% for project in site.portfolio %}
+  <div class="project">
+      <div class="thumbnail">
+          <a href="{{ site.baseurl }}{{ project.url }}">
+          {% if project.img %}
+          <img class="thumbnail" src="{{ project.img }}"/>
+          {% else %}
+          <div class="thumbnail blankbox"></div>
+          {% endif %}    
+          <span>
+              <h2>{{ project.title }}</h2>
+              <br>
+              <p>{{ project.description }}</p>
+          </span>
+          </a>
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
+  </div>
+  {% endfor %}
+</div><!-- /container -->
 
-    <hr>
-
-  </div> <!-- /container -->
-
+  
 </main>

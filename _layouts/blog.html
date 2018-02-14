@@ -2,26 +2,28 @@
 layout: default
 ---
 <main role="main">
-<div class="container">
+  <div class="container">
 
-  <h1 class="page-heading">{{ page.title | escape }}</h1>
-  
-  {{ content }}
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+    
+    {{ content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <br/>
+    <br/>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+            <p>{{ post.description }}</p>
+            <br/>
+            <hr/>
+          </li>
+        {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+  </div>
 </main>

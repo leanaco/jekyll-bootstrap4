@@ -1,0 +1,343 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+// Helvetica, sans-serif;
+/** Variables **********************************************/
+$base-font-family:              "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$base-line-height:              1.5em;
+$horizontal-spacing-unit:       0px;
+$vertical-spacing-unit:         40px;
+$nav-height:                    56px;
+$font-weight:                   100;
+
+/* portfolio tinkering */
+$img_spacing: 5px; 
+$img_height: 275px;
+$caption_font_size: 12px;
+$caption_color: #aaa;
+
+/* COLORS  */
+$red:  #FF3636;
+$orange: #F29105;
+$blue: #2698BA;
+$green: #11D68B;
+$lime_green: #B7D12A;
+$purple: #B509AC;
+
+
+$grey-color-dark: #333;   /* footer */
+$grey-color-light: #ddd;  /* navigation bar border */
+$text-color:     #666;
+
+/* Set theme color *************************/
+$theme-color:   $red;
+
+
+/************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: $font-weight;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    padding-top: 50px
+}
+
+
+h1 {
+    color: $theme-color;
+    opacity: 0.75;
+    padding-bottom: 30px;
+}
+
+.thumbnail h1 {
+    color: $grey-color-light;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    background-color: $background-color;
+    font-weight: $font-weight;
+    margin-bottom: 0px;
+}
+
+.navbar.transparent {
+    background: rgba(255,255,255,0.8);
+ }
+
+.contacts li {
+    list-style: none;
+    font-size: 125%;
+    font-weight: 100;
+}
+.contacts {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.experience {
+    list-style: none;
+    padding: 0px;
+}
+
+/* Skills section styles */
+.skills {
+    list-style: none;
+    padding: 0px;
+}
+.skills li > p {
+    padding-left: 10px;
+}
+.skills li {
+    background: #e5ccff;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 7px;
+}
+ .skill1 {
+	width: 300px;
+}
+.skill2 {
+	width: 300px;
+}
+.skill3 {
+	width: 270px;
+}
+.skill4 {
+	width: 235px;
+}
+.skill5 {
+	width: 100px;
+} 
+
+@media only screen and (max-width: 480px) {
+    .skill1 {
+        width: 70vw;
+    }
+    .skill2 {
+        width: 70vw;
+    }
+    .skill3 {
+        width: 65vw;
+    }
+    .skill4 {
+        width: 55vw;
+    }
+    .skill5 {
+        width: 35vw;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .skill1 {
+        width: 25vw;
+    }
+    .skill2 {
+        width: 25vw;
+    }
+    .skill3 {
+        width: 22vw;
+    }
+    .skill4 {
+        width: 18vw;
+    }
+    .skill5 {
+        width: 10vw;
+    }
+}
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $vertical-spacing-unit / 2;
+}
+
+.alignright {
+    float: right;
+}
+
+
+hr{
+    /* Inset, by Dan Eden */
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+// ul, ol {
+//     margin-left: $horizontal-spacing-unit;
+// }
+
+// li {
+//     > ul,
+//     > ol {
+//          margin-bottom: 0;
+//     }
+// }
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $text-color;
+    text-decoration: none;
+    /*
+    &:visited {
+        color: darken($brand-color, 15%); 
+    }
+    */
+    &:hover {
+        color: $theme-color;
+        text-decoration: none;
+    }
+}
+
+article a {
+    color: $theme-color;
+    font-weight: $font-weight;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $text-color;
+    border-left: 10px solid $grey-color-light;
+    padding-left: $horizontal-spacing-unit / 2;
+    font-size: 18px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: $grey-color-light;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */ 
+
+.wrapper {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $horizontal-spacing-unit;
+    padding-left: $horizontal-spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
