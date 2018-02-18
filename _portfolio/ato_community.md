@@ -85,6 +85,13 @@ There are on-going surveys of ATO Community to continually assess satisfaction a
 
 This survey was built in [UserZoom](https://www.userzoom.com/) and was still running at the time that I left ATO.
 
+<div class="img_row">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/portfolio_images/ato_community.png" alt="" title="ATO Community in public beta"/>
+</div>
+<div class="col three caption">
+	ATO Community in public beta
+</div>
+
 
 ## Competencies highlighted
 

@@ -7,7 +7,7 @@ layout: default
 <main role="main">
     
   <!-- Title -->
-  <div class="jumbotron">
+  <div class="jumbotron" style="margin-bottom: -3em;">
     <div class="container">    
       <div class="header-bar">
         <h1>Leana Copeland</h1>
@@ -18,9 +18,16 @@ layout: default
     </div>
   </div>
 
+<!-- Mini-intro -->
+<div class="container px-10">
+  <p>I am a user experience researcher with a background in computer science, data analysis, and human-computer interaction. I am passionate about two things: data, and using it to improve the user experience.</p>
+  <p>I specialise in quantitative user research. I use my strength in this field to systematically measure users’ behaviours and perceptions to understand their needs and motivations.</p>
+</div>
+
 <!-- Portfolio section -->
 <div class="container">
   <h1 class="text-center">my portfolio</h1>
+
   {% assign projects = site.portfolio | sort: 'order' | reverse %}
   {% for project in projects %}
   <div class="project">
