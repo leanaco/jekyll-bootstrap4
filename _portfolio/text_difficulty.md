@@ -3,6 +3,7 @@ layout: post
 title: Text difficulty & reading behaviour
 description: Eye tracking and user research 
 img: /assets/img/eye_tracking_closeup.jpeg
+order: 4
 ---
 
 <!-- 

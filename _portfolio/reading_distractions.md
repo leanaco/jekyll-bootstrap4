@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Reading in a (visually) distracting environment
+title: Reading in distracting environments
 description: Eye tracking and user research 
 img: /assets/img/eye_tracking_closeup.jpeg
+order: 3
 ---
 
 <!-- 

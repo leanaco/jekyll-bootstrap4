@@ -3,6 +3,7 @@ layout: post
 title: Reading in eLearning environments
 description: Eye tracking and user research 
 img: /assets/img/eye_tracking_closeup.jpeg
+order: 5
 ---
 <!-- 
 ## Project goal/The problem
@@ -69,9 +70,7 @@ The results from this study can be used to design learning materials in eLearnin
 
 As shown above formats A(2) and B the large jumps between questions and text. These jumps are followed by read. We define this as answer-seeking behaviour. There was a distribution of answer-seeking beahiour observed for different questions in the study. We propose the use of this measure as an indicator of question difficulty. 
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img//portfolio_images/answer-seeking.png" alt="" title="Example of answer-seeking behaviour"/>
-</div>
+<img class="img_centre" src="{{ site.baseurl }}/assets/img//portfolio_images/answer-seeking.png" alt="" title="Example of answer-seeking behaviour" style="width:20em"/>
 <div class="col three caption">
 	Example of answer-seeking behaviour
 </div>

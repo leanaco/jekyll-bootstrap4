@@ -21,7 +21,8 @@ layout: default
 <!-- Portfolio section -->
 <div class="container">
   <h1 class="text-center">my portfolio</h1>
-  {% for project in site.portfolio %}
+  {% assign projects = site.portfolio | sort: 'order' | reverse %}
+  {% for project in projects %}
   <div class="project">
       <div class="thumbnail">
           <a href="{{ site.baseurl }}{{ project.url }}">

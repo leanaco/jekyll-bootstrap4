@@ -3,6 +3,7 @@ layout: post
 title: Student design challenge
 description: User research and UX design
 img: /assets/img/virk.jpg
+order: 6
 ---
 
 I was part of a team that won the [OzCHI 2015](https://www.ozchi24.org/) Student Design Challenge. The Australian Human-Computer Interaction (OzCHI) conference is an annual conference held in Australia aimed at sharing knowledge on all things HCI.
@@ -114,6 +115,16 @@ All team members presented and took part in the Q&A section of the presentation.
 	Our team after being presented first place for the competition
 </div>
 
+## Competencies highlighted
+
+{:.mt-2}
+* Ability to work to tight deadlines
+* Experience conducting Ccontextual interviews
+* Persona creation
+* Wireframing
+* Prototyping
+* Report writing
+* Presentation
 
 ## Want more?
 
