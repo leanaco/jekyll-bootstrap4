@@ -27,9 +27,8 @@ A large part of my PhD thesis and honours work was on the use of eye tracking to
 
 I conducted a preliminiary user study to investigate how participants read in distracting environments and potential mechanisms to mitigate distractions. In this study I used __eye tracking__ record participants eye gaze and used in **real-time** to create the mitigation signals.
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio_images/example.png" alt="" title="Example of the visually distracting environment"/>
-</div>
+
+<img class="img_centre" src="{{ site.baseurl }}/assets/img/portfolio_images/example.png" alt="" title="Example of the visually distracting environment"/>
 <div class="col three caption">
 	Example of the visually distracting environment</p>
 </div>

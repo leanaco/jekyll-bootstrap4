@@ -32,18 +32,15 @@ I conducted a user study to collect eye rtacking data from participants as they 
 
 The eye gaze of 70 participants (23 female) was collected, 46 of which were first English language readers (L1). There were 9 grades of text difficulty, denoted A to J, as shown in the matrix below. Texts were on average 240 words (standard deviation of 20 words). 
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio_images/texts.png" alt="" title="Text difficiulty matrix"/>
-</div>
+<img class="img_centre" src="{{ site.baseurl }}/assets/img/portfolio_images/texts.png" alt="" title="Text difficiulty matrix"/>
 <div class="col three caption">
 	Text difficiulty matrix
 </div>
 
 Participants were asked to 9 text with differing text difficulty in different orders. They were asked two comprehension questions after each text as well as a survey on the their perception of readability and conceputal difficulty.
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio_images/example_text_difficulty.png" alt="" title="Example of text shown in Wattle"/>
-</div>
+
+<img class="img_centre" src="{{ site.baseurl }}/assets/img/portfolio_images/example_text_difficulty.png" alt="" title="Example of text shown in Wattle"/>
 <div class="col three caption">
 	Example of text shown in Wattle
 </div>

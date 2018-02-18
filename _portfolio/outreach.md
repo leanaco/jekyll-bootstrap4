@@ -11,6 +11,8 @@ I worked as a college ambassador for the College of Engineering and Computer Sci
 
 <div class="img_row">
     <img class="col one" src="{{ site.baseurl }}/assets/img/outreach.jpeg" alt="" title="example image"/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/openday_photo2.jpg" alt="" title="example image"/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/open_day_brochure.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	Me at ANU open daya

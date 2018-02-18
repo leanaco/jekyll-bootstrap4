@@ -8,9 +8,8 @@ order: 1
 
 I enjoy being able to share my knowledge and hopefully inspire students to keep up study in the areas I am passionate about. I gained a lot of practical knowledge about teaching over my time at ANU, where I was given the opportunity to tutor, lecture, and guest lecture.
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio_images/teaching.png" alt="" title="example image"/>
-</div>
+
+<img class="img_centre" src="{{ site.baseurl }}/assets/img/portfolio_images/teaching.png" alt="" title="example image"/>
 <div class="col three caption">
 	Lecturing in Weihai
 </div>
