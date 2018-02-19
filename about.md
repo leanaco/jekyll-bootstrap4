@@ -10,12 +10,12 @@ permalink: /about/
         <img src="/assets/img/openday_photo2.jpg" class="img-fluid center-block" alt="Me at ANU Open Day" >
     </div>
     <div class="col">
-        <p>I have a PhD in computer science from the Australian National University (ANU), which I graduated from in December 2016. In my research I used eye tracking to investigate reading behaviour and predict comprehension in an eLearning environment. Check out my <a href="/assets/docs/LCopeland_thesis.pdf" target="_blank">thesis</a> for more details.</p>
+        <p>I have a PhD in Computer Ccience from the Australian National University (ANU), which I graduated from in December 2016. In my research I used eye tracking to investigate reading behaviour and predict comprehension in an eLearning environment. Check out my <a href="/assets/docs/LCopeland_thesis.pdf" target="_blank">thesis</a> for more details.</p>
         <p>My extensive research experience has given me in-depth knowledge in experimental design, best practice methodologies, and statistical analysis. </p>
         <p>I apply robust research methods to design tasks, including designing and running eye tracking, baselining tests, surveys, controlled laboratory experiments, remote unmoderated testing, and moderated usability testing.</p> 
-        <p>Like I said, I'm passionate about data, and I know how to work with it. I have experience performing statistical analysis and data visualisation using Python, Matlab, R, and SPSS. I also have experience using machine learning models in Python and Matlab. </p>
-        <p>I also have experience in web development, in particular HTML, CSS, Javascript, Python frameworks (Django, Flask), and Jekyll, which my site is built in. </p>
-        <p>If you want to know more check out my portfolio or my <a href="/assets/docs/LCopeland_thesis.pdf" target="_blank"> resume </a>.</p>   
+        <p>I'm passionate about data, and I know how to work with it. I have experience performing statistical analysis and data visualisation using Python, Matlab, R, and SPSS. I also have experience using machine learning models in Python and Matlab. </p>
+        <p>I have experience in web development, in particular HTML, CSS, Javascript, Python frameworks (Django, Flask), and Jekyll, which my site is built in. </p>
+        <!-- <p>If you want to know more check out my portfolio or my <a href="/assets/docs/LCopeland_thesis.pdf" target="_blank"> resume </a>.</p>    -->
     </div>
 </div><!-- /.row -->
 
