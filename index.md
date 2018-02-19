@@ -28,10 +28,11 @@ layout: default
 <div class="container">
   <h1 class="text-center">my portfolio</h1>
 
+  <div class="row">
   {% assign projects = site.portfolio | sort: 'order' | reverse %}
   {% for project in projects %}
-  <div class="project">
-      <div class="thumbnail">
+  <div class="col-md-4">
+      <div class="thumbnail mt-4">
           <a href="{{ site.baseurl }}{{ project.url }}">
           {% if project.img %}
           <img class="thumbnail" src="{{ project.img }}"/>
@@ -47,6 +48,7 @@ layout: default
       </div>
   </div>
   {% endfor %}
+  </div>
 </div><!-- /container -->
 
   
