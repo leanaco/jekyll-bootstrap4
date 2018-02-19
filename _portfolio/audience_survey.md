@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Who is our audience survey?
+title: Who is our audience survey
 description: User research and data analysis
-img: /assets/img/eye_tracking_closeup.jpeg
+# img: /assets/img/eye_tracking_closeup.jpeg
 order: 8
 ---
 
